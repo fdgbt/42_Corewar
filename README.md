@@ -57,5 +57,15 @@ Start the virtual machine (arena) with internal graphic mode (debug):
 Start the virtual machine (arena) with external graphic mode (Corewar Visualiser):
 ```
 cd /src/visu
+```
+```
 ../../corewar ../../vm_champs/champs/examples/bee_gees.cor ../../vm_champs/champs/examples/bigzork.cor ../../vm_champs/champs/examples/helltrain.cor ../../vm_champs/champs/examples/turtle.cor -x | python3 cor_visu.py -py3
 ```
+
+## MAN (complete user manual)
+```
+./asm -h
+./corewar -h
+```
+
+## Screenshots
