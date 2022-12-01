@@ -6,8 +6,6 @@ It is sub-divided in 3 parts:
 - The Assembler, a program to compile the champions in Bytes, following a determined format that is required by the Arena.
 - The Virtual Machine, the Arena that will handle the fight and display the status informations.
 
-This is a group project with 4 developers.
-
 ## Example
 
 ## Expected Result
@@ -69,3 +67,12 @@ cd /src/visu
 ```
 
 ## Screenshots
+
+## Notes
+This is a group project with 4 developers.
+
+## Keywords
+Compilation  
+Simplistic virtual machine  
+Simplistic assembly-like language  
+Visual rendering  
