@@ -9,7 +9,7 @@ It is sub-divided in 4 parts:
 
 ## Example
 
-Core War is a 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer.  
+Initially, Core War is a 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer.  
 More information: https://en.wikipedia.org/wiki/Core_War
 
 - 42 Event: Corewar Championship 2018 https://www.youtube.com/watch?v=R-OkYyzp-DI
