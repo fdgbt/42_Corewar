@@ -18,7 +18,7 @@ More information: https://en.wikipedia.org/wiki/Core_War
 The main goal of this project is to faithfully reproduce the behavior of the "master" virtual machine (corewar).  
 This "master" virtual machine is available in the "vm_champs" folder.  
 
-The second goal of this project is to faithfully reproduce the behavior of the "master" assembler (asm).  
+The second goal is to faithfully reproduce the behavior of the "master" assembler (asm).  
 This "master" assembler is also available in the "vm_champs" folder.  
 
 The third goal is to create a new champion ("zkiller"), his only prerequisite is to beat the "Zork" champion.  
