@@ -8,7 +8,6 @@ It is sub-divided in 4 parts:
 - The Visualiser, displaying the battlefield: the state of the RAM memory.
 
 ## Example
-
 Initially, Core War is a 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer.  
 More information: https://en.wikipedia.org/wiki/Core_War
 
@@ -54,7 +53,6 @@ make fclean
 ```
 
 ## Usage
-
 Firstly, use the assembler to compile the champions in ".cor" format:
 ```
 ./asm vm_champs/champs/examples/bee_gees.s vm_champs/champs/examples/bigzork.s vm_champs/champs/examples/helltrain.s vm_champs/champs/examples/turtle.s
@@ -77,6 +75,46 @@ cd /src/visu
 ```
 ../../corewar ../../vm_champs/champs/examples/bee_gees.cor ../../vm_champs/champs/examples/bigzork.cor ../../vm_champs/champs/examples/helltrain.cor ../../vm_champs/champs/examples/turtle.cor -x | python3 cor_visu.py -py3
 ```
+
+## Viewer
+A unique visualisator "Corewar Visualizer" has been developed for this project.  
+This program has the particularity to be created with the Python language.  
+
+The following packages must be installed on your system before to use the visualisator:  
+- python3
+- pip3
+
+If necessary, you can use the "Homebrew" package manager to install them.  
+Homebrew was originally designed to simplify the installation process on MacOs (indeed, there is a majority of Mac at 42).  
+The use of Homebrew is facultative as you can install "python" and "pip3" on your own way, depending of your OS.  
+```
+brew install python
+brew install pip3
+```
+
+Then, use the python3 official package manager "pip3" to install the "pygame" module:
+```
+pip3 install pygame
+```
+
+You can now combine the "Corewar Vizualizer" with the "Corewar" program:
+
+```
+cd /src/visu
+```
+```
+../../corewar ../../vm_champs/champs/examples/turtle.cor -x | python3 cor_visu.py -py3
+```
+
+**Tips:**  
+- [ESC]	Quit
+- [SPACE]	Play / Pause
+- [<-]	Previous cycle / step
+- [->]	Next cycle / step
+- [+]	Speed up
+- [-]	Speed down
+- [H]	Hide / Show data
+- [S]	Mute / Unmute
 
 ## MAN (complete user manual)
 ```
