@@ -25,7 +25,7 @@ The third goal is to create a new champion ("zkiller"), his only prerequisite is
 All available champions are located in the "vm_champs/champs" folder.
 
 The last objective is to create a beautiful visualiser to display the fights in a (relatively) human-understandable way.  
-Usually the visualiser is part of the virtual machine, but in our case it is external as it has been designed with "Python".  
+Usually the visualiser is part of the virtual machine, but in our case it is external as it has been designed with Python.  
 
 ## Install
 Create or update the "corewar" and "asm" programs from sources.
@@ -125,9 +125,11 @@ cd /src/visu
 ## Screenshots
 ![Capture d’écran du 2022-12-01 17-41-39](https://user-images.githubusercontent.com/52746061/205109970-fad21801-880f-405a-a67e-75259f7205af.png)  
 ![visual](https://user-images.githubusercontent.com/52746061/205045905-dd153138-ada2-470f-abf4-13ff34325556.gif)  
+![Capture5](https://user-images.githubusercontent.com/52746061/205120425-a5088635-602a-4dfe-b51b-d9c774d4055f.png)  
+![Capture4](https://user-images.githubusercontent.com/52746061/205120218-e7c73211-4f85-488f-9746-23ebe0e7438a.png)  
 
 ## Notes
-This is a group project with 4 developers.
+This is a group project made by 4 developers.
 
 ## Keywords
 Compilation  
