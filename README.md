@@ -24,7 +24,7 @@ This "master" assembler is also available in the "vm_champs" folder.
 The third goal is to create a new champion ("zkiller"), his only prerequisite is to beat the "Zork" champion.  
 All available champions are located in the "vm_champs/champs" folder.
 
-The last objective is to create a beautiful visualiser to display the fights in a (relatively) human-understandable way.  
+The last objective is to create a beautiful visualiser to display the memory in a (relatively) human-understandable way.  
 Usually the visualiser is part of the virtual machine, but in our case it is external as it has been designed with Python.  
 
 ## Install
