@@ -85,6 +85,7 @@ cd /src/visu
 ```
 
 ## Screenshots
+![visual](https://user-images.githubusercontent.com/52746061/205045905-dd153138-ada2-470f-abf4-13ff34325556.gif)
 
 ## Notes
 This is a group project with 4 developers.
