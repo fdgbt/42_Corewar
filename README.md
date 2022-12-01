@@ -16,6 +16,17 @@ More information: https://en.wikipedia.org/wiki/Core_War
 - 42 Event: Corewar Championship 2017 https://www.youtube.com/watch?v=A8DPfQL3uO0
 
 ## Expected Result
+The main goal of this project is to faithfully reproduce the behavior of the "master" virtual machine (corewar).  
+This "master" virtual machine is available in the "vm_champs" folder.  
+
+The second goal of this project is to faithfully reproduce the behavior of the "master" assembler (asm).  
+This "master" assembler is also available in the "vm_champs" folder.  
+
+The third goal is to create a new champion ("zkiller"), his only prerequisite is to beat the "Zork" champion.  
+All available champions are located in the "vm_champs/champs" folder.
+
+The last objective is to create a beautiful visualiser to display the fights in a (relatively) human-understandable way.  
+Usually the visualiser is part of the virtual machine, but in our case it is external as it has been designed with "Python".  
 
 ## Install
 Create or update the "corewar" and "asm" programs from sources.
