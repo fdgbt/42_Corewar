@@ -1,12 +1,19 @@
 # 42_corewar
-This project aims to create a virtual arena where 1 to 4 champions (programmable bots) fight to the death.  
+This project aims to create a virtual machine (arena) where 1 to 4 champions (programmable bots) fight to the death.  
 
-It is sub-divided in 3 parts:
-- The champion, coded in a simplistic assembly-like language, allowing the use of various strategy.
-- The Assembler, a program to compile the champions in Bytes, following a determined format that is required by the Arena.
-- The Virtual Machine, the Arena that will handle the fight and display the status informations.
+It is sub-divided in 4 parts:
+- The champion, coded in a simplistic assembly-like language, allowing the use of several strategies.
+- The Assembler, a program to compile the champions in Bytes, following a custom format that is required by the Virtual Machine.
+- The Virtual Machine, also called the Arena, that will handle the fight and display the result.
+- The Visualiser, displaying the battlefield: the state of the RAM memory.
 
 ## Example
+
+Core War is a 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer.  
+More information: https://en.wikipedia.org/wiki/Core_War
+
+- 42 Event: Corewar Championship 2018 https://www.youtube.com/watch?v=R-OkYyzp-DI
+- 42 Event: Corewar Championship 2017 https://www.youtube.com/watch?v=A8DPfQL3uO0
 
 ## Expected Result
 
